@@ -4,6 +4,8 @@ const cors=require('cors');
 const app=express();
 const mongoose= require('mongoose');
 const postRoute=require('./routes/post')
+const getParkedRoute=require('./routes/Get_Parked/getParked');
+const getParkedWebAppRoute=require('./routes/Get_Parked/getParkedWebApp');
 
 require('dotenv/config');
 
@@ -11,6 +13,8 @@ require('dotenv/config');
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/post', postRoute);
+app.use('/get_parked', getParkedRoute);
+app.use('/get_parked/web_app', getParkedWebAppRoute);
 
 //Routes
 app.get('/', (req, res)=>{
