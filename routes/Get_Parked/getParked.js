@@ -3,9 +3,9 @@ const router=express.Router();
 const path=require('path');
 const fs=require('fs');
 
-router.use(express.static(path.join(__dirname, "./../../Get_Parked")));
+router.use(express.static(path.join(__dirname, "./../../public/Get_Parked")));
 router.get('/', (req, res)=>{
-    fs.readFile("./../../Get_Parked", (error, pgResp)=>{
+    fs.readFile("./../../public/Get_Parked", (error, pgResp)=>{
         if (error) {
             res.writeHead(404);
             res.write('Contents you are looking are Not Found');
