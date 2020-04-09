@@ -14,7 +14,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use('/post', postRoute);
 app.use('/get_parked', getParkedRoute);
-app.use('/', getParkedWebAppRoute);
+app.use('/get_parked/web_app', getParkedWebAppRoute);
 
 //Routes
 app.get('/', (req, res)=>{
