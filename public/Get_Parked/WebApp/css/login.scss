@@ -1,0 +1,348 @@
+.qbBoxShadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.28); 
+}
+.page-wrap{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    min-height:100%;
+    background-color: #433c3c;
+    text-align: center;
+
+    .page-content{
+        padding-top: 40px;
+    }
+
+    @media only screen and (max-width:600px){
+        .page-content{
+            padding-top: 65px;
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    
+    .page-head-wrap{
+
+        .head-logo-wrap{
+
+            .head-logo{
+                display: inline-block;
+                font-size: 50px;
+                font-family: "Josefin Sans", sans-serif;
+                font-weight: 600;
+                text-shadow:  4px 8px 15px #000;
+                color: #4FB81F;
+            }
+        }
+        .head-slogan-wrap{
+            font-size: 18px;
+            font-weight: 600;
+            font-family: "Montserrat", sans-serif;
+            color: #bbbbbb;
+            
+            br{
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+         
+            .head-logo-wrap{
+                display: block;
+
+                .head-logo{
+                    display: inline-block;
+                    font-size: 35px;
+                    font-family: "Josefin Sans", sans-serif;
+                    font-weight: 700;
+                    text-shadow:  4px 8px 15px #000;
+                    color: #4FB81F;
+                }
+            }
+            .head-slogan-wrap{
+                display: block;
+                font-size: 13px;
+                font-weight: 500;
+                padding: 3.5% 5%;
+                font-family: "Roboto", sans-serif;
+                color: #bbbbbb;
+            
+                br{
+                    display: block;
+                }
+            }   
+        }
+    }
+
+    
+    .page-mid-wrap{
+            
+
+        .page-mid{
+            display: table;
+            width: 100%;
+            text-align: left;
+
+            .page-mid-section{
+                display: block;
+                float: left;
+                width: 50%;
+                height: 500px;
+                text-align: center;
+                position: relative;
+
+
+                .page-mid-section-content{
+                    width: 500px;
+                    height: auto;
+            
+                    .login-box{
+                        display: inline-block;
+                        max-width: 500px;
+                        width: 75%;
+                        border-radius: 2.5px;
+                        box-sizing: border-box;
+
+                        .login-section{
+                            box-sizing: border-box;
+                            text-align: center;
+                            margin-bottom: 15px;
+
+                            .login-section-text{
+                                text-align: left;
+                                padding-left: 10%;
+                                padding-top: 5px;
+                                padding-bottom: 2px;
+                                font-size: 15px;
+                                font-weight: 400;
+                                font-family:"Roboto",sans-serif;
+                                color: #e8e8e8;
+                            }
+                            .login-section-input{
+                                width: 100%;
+                                box-sizing: border-box;
+                                font-size: 15px;
+                                font-weight: 500;
+                                font-family: "Mukta", sans-serif;
+                                padding: 5px 30px;
+                                border: 1px solid grey;
+                                border-radius: 2.5px;
+                            }
+
+                            .login-terms{
+                                text-align: center;
+                                font-size: 15px;
+                                font-family: "Roboto" ,sans-serif;
+                                color: #e8e8e8;
+                                font-weight: 400;
+
+                                a{
+                                    font-weight: 550;
+                                    font-size: 16px;
+                                    display: inline;
+                                    color: #418ee0;
+                                    text-decoration: none;
+                                }
+                                a:hover{
+                                    color: #fff;
+                                }
+                            }
+
+                            .sign-up-btn{
+                                float: right;
+                                text-align: center;
+                                padding: 7.5px 20px;
+                                font-size: 15px;
+                                font-family: "Roboto" , sans-serif;
+                                font-weight: 450;
+                                background-color: #0f9b0f;
+                                color: #fbf8f8;
+                                border-radius: 5px;
+                            }
+
+                            .login-req{
+                                text-align: center;
+                                font-size: 15px;
+                                font-weight: 400;
+                                font-family: "Roboto", sans-serif;
+                                color: #e8e8e8;
+
+                                a{
+                                    font-size: 18px;
+                                    text-decoration: none;
+                                    color: #418ee0;
+                                    font-weight: 700;
+                                }
+                                a:hover{
+                                    color: #fff;
+                                }
+                            }
+                            
+                            .login-btn{
+                                display: inline-block;
+                                text-align: center;
+                                padding: 10px 40px;
+                                font-size: 15px;
+                                font-family: "Roboto" , sans-serif;
+                                font-weight: 450;
+                                background-color: #0077b5;
+                                color: #fbf8f8;
+                                border-radius: 5px;
+                                margin: 5px 50px;
+                                border: 2px solid #1e84b9;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .box-ratio{
+                width: 100%;
+                height: 30vw;
+            }
+
+            .content-centered{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                //padding-left: 75px;
+            }
+
+        }
+
+        @media only screen and (max-width:600px) {
+            .page-mid{
+                display: block !important;
+                width: 100%;
+                text-align: left;
+
+                .page-mid-section{
+                    display: block;
+                    float: unset;
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                    position: relative;
+
+                    .page-mid-section-content{
+                        width: auto;
+                        height: auto;
+                
+                        .login-box{
+                            display: inline-block;
+                            max-width: unset;
+                            width: 75%;
+                            border-radius: 2.5px;
+                            box-sizing: border-box;
+
+                            .login-section{
+                                box-sizing: border-box;
+                                text-align: center;
+                                margin-bottom: 15px;
+
+                                .login-section-text{
+                                    text-align: left;
+                                    padding-left: 10%;
+                                    padding-top: 5px;
+                                    padding-bottom: 2px;
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    font-family:"Roboto",sans-serif;
+                                    color: #e8e8e8;
+                                }
+                                .login-section-input{
+                                    width: 100%;
+                                    box-sizing: border-box;
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    font-family: "Mukta", sans-serif;
+                                    padding: 5px 30px;
+                                    border: 1px solid grey;
+                                    border-radius: 2.5px;
+                                }
+
+                                .login-terms{
+                                    text-align: center;
+                                    font-size: 15px;
+                                    font-family: "Roboto" ,sans-serif;
+                                    color: #e8e8e8;
+                                    font-weight: 400;
+
+                                    a{
+                                        font-weight: 550;
+                                        font-size: 16px;
+                                        display: inline;
+                                        color: #418ee0;
+                                        text-decoration: none;
+                                    }
+                                    a:hover{
+                                        color: #fff;
+                                    }
+                                }
+
+                                .sign-up-btn{
+                                    float: right;
+                                    text-align: center;
+                                    padding: 7.5px 20px;
+                                    font-size: 15px;
+                                    font-family: "Roboto" , sans-serif;
+                                    font-weight: 450;
+                                    background-color: #0f9b0f;
+                                    color: #fbf8f8;
+                                    border-radius: 5px;
+                                }
+
+                                .login-req{
+                                    text-align: center;
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    font-family: "Roboto", sans-serif;
+                                    color: #e8e8e8;
+
+                                    a{
+                                        font-size: 18px;
+                                        text-decoration: none;
+                                        color: #418ee0;
+                                        font-weight: 700;
+                                    }
+                                    a:hover{
+                                        color: #fff;
+                                    }
+                                }
+                                
+                                .login-btn{
+                                    display: inline-block;
+                                    text-align: center;
+                                    padding: 10px 40px;
+                                    font-size: 15px;
+                                    font-family: "Roboto" , sans-serif;
+                                    font-weight: 450;
+                                    background-color: #0077b5;
+                                    color: #fbf8f8;
+                                    border-radius: 5px;
+                                    margin: 5px 50px;
+                                    border: 2px solid #1e84b9;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .box-ratio{
+                    width: 100%;
+                    height: 36vw;
+                }
+
+                .content-centered{
+                    display: block;
+                    align-items: unset;
+                    justify-content: unset;
+                    //padding-left: 75px;
+                }
+            }
+        }
+    }
+}

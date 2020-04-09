@@ -1,0 +1,338 @@
+.qbBoxShadow {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.28);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.28);
+}
+
+.page-wrap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background-color: #433c3c;
+  text-align: center;
+}
+
+.page-wrap .page-content {
+  padding-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-wrap .page-content {
+    padding-top: 55px;
+  }
+}
+
+.page-wrap .page-head-wrap .head-logo-wrap .head-logo {
+  display: inline-block;
+  font-size: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  text-shadow: 4px 8px 15px #000;
+  color: #4FB81F;
+}
+
+.page-wrap .page-head-wrap .head-slogan-wrap {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #bbbbbb;
+}
+
+.page-wrap .page-head-wrap .head-slogan-wrap br {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-wrap .page-head-wrap .head-logo-wrap {
+    display: block;
+  }
+  .page-wrap .page-head-wrap .head-logo-wrap .head-logo {
+    display: inline-block;
+    font-size: 35px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    text-shadow: 4px 8px 15px #000;
+    color: #4FB81F;
+  }
+  .page-wrap .page-head-wrap .head-slogan-wrap {
+    display: block;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 2.5% 5%;
+    font-family: "Roboto", sans-serif;
+    color: #bbbbbb;
+  }
+  .page-wrap .page-head-wrap .head-slogan-wrap br {
+    display: block;
+  }
+}
+
+.page-wrap .page-mid-wrap .page-mid {
+  display: table;
+  width: 100%;
+  text-align: left;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content {
+  width: 500px;
+  height: auto;
+  padding: 10px 0px;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box {
+  display: inline-block;
+  max-width: 500px;
+  width: 75%;
+  border-radius: 2.5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-section-text {
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  color: #e8e8e8;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-section-input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Mukta", sans-serif;
+  padding: 5px 30px;
+  border: 1px solid grey;
+  border-radius: 2.5px;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-terms {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto" ,sans-serif;
+  color: #e8e8e8;
+  font-weight: 400;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-terms a {
+  font-weight: 550;
+  font-size: 16px;
+  display: inline;
+  color: #418ee0;
+  text-decoration: none;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-terms a:hover {
+  color: #fff;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .sign-up-btn {
+  float: right;
+  text-align: center;
+  padding: 7.5px 20px;
+  font-size: 15px;
+  font-family: "Roboto" , sans-serif;
+  font-weight: 450;
+  background-color: #0f9b0f;
+  color: #fbf8f8;
+  border-radius: 5px;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-req {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #e8e8e8;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-req a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #418ee0;
+  font-weight: 700;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-req a:hover {
+  color: #fff;
+}
+
+.page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-btn {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-family: "Roboto" , sans-serif;
+  font-weight: 450;
+  background-color: #0077b5;
+  color: #fbf8f8;
+  border-radius: 5px;
+  margin: 5px 50px;
+  border: 2px solid #1e84b9;
+}
+
+.page-wrap .page-mid-wrap .page-mid .box-ratio {
+  width: 100%;
+  height: 30vw;
+}
+
+.page-wrap .page-mid-wrap .page-mid .content-centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-wrap .page-mid-wrap .page-mid {
+    display: block !important;
+    width: 100%;
+    text-align: left;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section {
+    display: block;
+    float: unset;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content {
+    width: auto;
+    height: auto;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box {
+    display: inline-block;
+    max-width: unset;
+    width: 75%;
+    border-radius: 2.5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 7.5px;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-section-text {
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+    color: #e8e8e8;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-section-input {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Mukta", sans-serif;
+    padding: 5px 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-terms {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto" ,sans-serif;
+    color: #e8e8e8;
+    font-weight: 400;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-terms a {
+    font-weight: 550;
+    font-size: 16px;
+    display: inline;
+    color: #418ee0;
+    text-decoration: none;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-terms a:hover {
+    color: #fff;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .sign-up-btn {
+    float: right;
+    text-align: center;
+    padding: 7.5px 20px;
+    font-size: 15px;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 450;
+    background-color: #0f9b0f;
+    color: #fbf8f8;
+    border-radius: 5px;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-req {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #e8e8e8;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-req a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #418ee0;
+    font-weight: 700;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-req a:hover {
+    color: #fff;
+  }
+  .page-wrap .page-mid-wrap .page-mid .page-mid-section .page-mid-section-content .login-box .login-section .login-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 450;
+    background-color: #0077b5;
+    color: #fbf8f8;
+    border-radius: 5px;
+    margin: 5px 50px;
+    border: 2px solid #1e84b9;
+  }
+  .page-wrap .page-mid-wrap .page-mid .box-ratio {
+    width: 100%;
+    height: 36vw;
+  }
+  .page-wrap .page-mid-wrap .page-mid .content-centered {
+    display: block;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+}
+/*# sourceMappingURL=signup.css.map */

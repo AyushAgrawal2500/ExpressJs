@@ -1,0 +1,134 @@
+@-webkit-keyframes back-stage-move {
+  0% {
+    left: -400%;
+  }
+  8% {
+    left: -400%;
+  }
+  48% {
+    left: -200%;
+  }
+  49% {
+    left: -200%;
+  }
+  69% {
+    left: -100%;
+  }
+  80% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes back-stage-move {
+  0% {
+    left: -400%;
+  }
+  8% {
+    left: -400%;
+  }
+  48% {
+    left: -200%;
+  }
+  49% {
+    left: -200%;
+  }
+  69% {
+    left: -100%;
+  }
+  80% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@-webkit-keyframes parking-pin-visibility {
+  0% {
+    visibility: visible;
+  }
+  8% {
+    visibility: visible;
+  }
+  48% {
+    visibility: visible;
+  }
+  49% {
+    visibility: visible;
+  }
+  69% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: hidden;
+  }
+  81% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes parking-pin-visibility {
+  0% {
+    visibility: visible;
+  }
+  8% {
+    visibility: visible;
+  }
+  48% {
+    visibility: visible;
+  }
+  49% {
+    visibility: visible;
+  }
+  69% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: hidden;
+  }
+  81% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+/*
+@keyframes back-stage-move{
+    0%{
+        left: -400%;
+    }
+
+    20%{
+        left: -400%;
+    }
+
+    32.5%{
+        left: -300%;
+    }
+    
+    42.5%{
+        left: -300%;
+    }
+    
+    67.5%{
+        left: -100%;
+    }
+
+    87.5%{
+        left: -100%;
+    }
+    
+    100%{
+        left: 0%;
+    }
+
+}*/
+/*# sourceMappingURL=animation.css.map */
