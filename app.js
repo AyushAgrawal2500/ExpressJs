@@ -6,6 +6,7 @@ const mongoose= require('mongoose');
 const postRoute=require('./routes/post')
 const getParkedRoute=require('./routes/Get_Parked/getParked');
 const getParkedWebAppRoute=require('./routes/Get_Parked/getParkedWebApp');
+const imgCropRoute=require('./routes/ImageCropper/ImgCropRoute');
 
 require('dotenv/config');
 
@@ -15,6 +16,7 @@ app.use(bodyParser.json());
 app.use('/post', postRoute);
 app.use('/get_parked', getParkedRoute);
 app.use('/get_parked/web_app', getParkedWebAppRoute);
+app.use('/imageCropper', imgCropRoute);
 
 //Routes
 app.get('/', (req, res)=>{

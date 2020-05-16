@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/angular.min.js"></script>
+    <script src="js/ImgCrop_24-03-2020.js"></script>
+    <link rel="stylesheet" href="css/imageCropper.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Cropper</title>
+</head>
+<body ng-app="qbApp" ng-controller="qbCtrl">
+    <qb-img-crop qb-img-crop-id="45">
+        <qb-img-crop-stage qb-height="35vw" qb-width="49vw" style="float: left;"></qb-img-crop-stage>
+        <qb-img-crop-display qb-height="35vw" qb-width="49vw" style="float: left;" ></qb-img-crop-display>
+    </qb-img-crop>
+
+    <input type="file" id="qbImgCrop">
+    <button ng-click="getProps()">Get Props</button>
+    <button ng-click="setDisplayFun()">Set Display</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.qb-img-crop-stage {
+  width: 50%;
+  height: 500px;
+}
+
+.qb-img-crop-stage .qb-img-crop-stage-cover .qb-img-crop-stage-background .qb-img-crop-stage-layer .qb-img-crop-stage-crop-box {
+  cursor: move;
+}
+
+.qb-img-crop-stage .qb-img-crop-stage-cover .qb-img-crop-stage-background .qb-img-crop-stage-layer .qb-img-crop-stage-crop-box .qb-img-crop-stage-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.qb-img-crop-stage .qb-img-crop-stage-cover .qb-img-crop-stage-background .qb-img-crop-stage-layer .qb-img-crop-stage-crop-box .qb-img-crop-stage-img::-moz-selection {
+  background: transparent;
+}
+
+.qb-img-crop-stage .qb-img-crop-stage-cover .qb-img-crop-stage-background .qb-img-crop-stage-layer .qb-img-crop-stage-crop-box .qb-img-crop-stage-img::selection {
+  background: transparent;
+}
+
+.qb-img-crop-stage .qb-img-crop-stage-cover .qb-img-crop-stage-background .qb-img-crop-stage-layer .qb-img-crop-stage-crop-box-resizer {
+  cursor: nw-resize;
+  z-index: 1000;
+}
+
+.qb-img-crop-display .qb-img-crop-display-img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  padding: unset;
+  border: unset;
+  margin: unset;
+}
+/*# sourceMappingURL=imageCropper.css.map */
